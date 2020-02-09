@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8499f541-390b-467d-9d3d-7121b584b3c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/app/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/snippets/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/snippets/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/snippets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/snippets/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/snippets/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/snippets/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/snippets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/snippets/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/snippets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/snippets/views.py" afterDir="false" />
     </list>
