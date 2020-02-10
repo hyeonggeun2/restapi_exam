@@ -3,13 +3,22 @@ from rest_framework.urlpatterns import format_suffix_patterns
 
 from snippets import views
 
-urlpatterns = [
-    # as_view는 클래스형 view에서 제공하는 클래스 진입 메소드이다.
-    # 자동으로 request를 검사해서 맞는 함수에 요청을 보냄.
-    path('snippets/', views.SnippetList.as_view()),
-    path('snippets/<int:pk>/', views.SnippetDetail.as_view()),
-    path('users/', views.UserList.as_view()),
-    path('users/<int:pk>/', views.UserDetail.as_view()),
-]
-
-urlpatterns = format_suffix_patterns(urlpatterns)
+# API endpoints
+urlpatterns = format_suffix_patterns([
+    path('', views.api_root),
+    path('snippets/',
+         views.SnippetList.as_view(),
+         name='snippet-list'),
+    path('snippets/<int:pk>/',
+         views.SnippetDetail.as_view(),
+         name='snippet-detail'),
+    path('snippets/<int:pk>/highlight/',
+         views.SnippetHighlight.as_view(),
+         name='snippet-highlight'),
+    path('users/',
+         views.UserList.as_view(),
+         name='user-list'),
+    path('users/<int:pk>/',
+         views.UserDetail.as_view(),
+         name='user-detail')
+])
