@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8499f541-390b-467d-9d3d-7121b584b3c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/app/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/snippets/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/snippets/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/snippets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/snippets/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/snippets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/snippets/views.py" afterDir="false" />
     </list>
@@ -56,5 +54,9 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="449" y="187" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1581062267310" />
+    <state x="1023" y="196" width="834" height="712" key="find.popup" timestamp="1581307942994">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="1023" y="196" width="834" height="712" key="find.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1581307942994" />
   </component>
 </project>
