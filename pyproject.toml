@@ -9,7 +9,7 @@ python = "^3.7"
 django = "<3.0"
 djangorestframework = "^3.11.0"
 django-filter = "^2.2.0"
-pygments = "^2.5.2"
+pygments = "^2.7.4"
 django-extensions = "^2.2.6"
 httpie = "^2.0.0"
 
